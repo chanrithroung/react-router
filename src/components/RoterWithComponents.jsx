@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, Router, RouterPro
 import {Layout, Error ,Home, Contact, About, Users } from "./index.js"
 import { userLoader } from "./user/Users.jsx";
 import UserLayout from "./user/UserLayout.jsx";
+import UserErrorPage from "./user/UserErrorPage.jsx";
 import UserDetail, { userDetailLoader } from "./user/UserDetail.jsx";
 
 const router = createBrowserRouter([
@@ -48,7 +49,7 @@ const router = createBrowserRouter([
                     {
                         path: ":id",
                         element: <UserDetail />,
-                        errorElement: <h1> Have something when wrong.... </h1> ,
+                        errorElement: <UserErrorPage />,
                         loader: userDetailLoader,
                     }
                 ]
