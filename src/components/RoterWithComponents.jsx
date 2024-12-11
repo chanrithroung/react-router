@@ -48,6 +48,7 @@ const router = createBrowserRouter([
                     {
                         path: ":id",
                         element: <UserDetail />,
+                        errorElement: <h1> Have something when wrong.... </h1> ,
                         loader: userDetailLoader,
                     }
                 ]
