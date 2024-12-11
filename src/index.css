@@ -1,0 +1,19 @@
+*  {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+.not-found-page {
+  height: 100vh;
+}
+
+
+.card-bg {
+  background-color: #25272e;
+}
+
+.text-goal {
+  color: gold;
+}
