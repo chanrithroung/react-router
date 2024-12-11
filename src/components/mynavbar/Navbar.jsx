@@ -8,7 +8,7 @@ function MyNavbar() {
   return (
     <Navbar expand="lg" className="bg-dark navbar-dark text-light">
       <Container>
-        <Navbar.Brand href="#home">  <Link className='text-white text-decoration-none' to="home">Home</Link> </Navbar.Brand>
+        <Navbar.Brand href="#home">  <Link className='text-white text-decoration-none' to="/">Home</Link> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
